@@ -19,3 +19,5 @@ python -m unittest discover -s test
 ## Jenkins Integration
 
 Jenkins is used to retrieve the project files from GitHub, run automated tests, and display the build results. This helps identify errors when changes are made to the code.
+
+The automated tests use Python's unittest framework to check that the application produces the expected result.
